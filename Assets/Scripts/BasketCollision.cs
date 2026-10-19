@@ -69,7 +69,7 @@ public class BasketCollision : MonoBehaviour
                    : 5;
 
         gameManager.AddPlayerScore(points);
-        SpawnConfetti(distance);
+        // SpawnConfetti(distance);
     }
 
     void SpawnConfetti(float distance)
